@@ -1,5 +1,6 @@
 #define _GNU_SOURCE
 #include "monty.h"
+bus_t bus = {NULL, NULL, NULL, 0};
 
 /**
  * main - entry point
@@ -9,7 +10,6 @@
  */
 int main(int argc, char const *argv[])
 {
-	bus_t bus = {NULL, NULL, NULL, 0};
 	FILE *file;
 	char *line = NULL;
 	size_t len = 0;
