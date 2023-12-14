@@ -50,4 +50,3 @@ int execute(char *line, stack_t **stack, unsigned int count)
 	}
 	return (1);
 }
-
